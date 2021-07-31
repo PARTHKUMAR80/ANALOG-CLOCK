@@ -1,0 +1,83 @@
+body{
+    background-color: crimson;
+    transition-property: background-color;
+    transition-duration: 5s;
+}
+body:hover{
+    background-color:coral
+}
+#clock{
+    border: 10px solid rgb(63, 56, 56);
+    background: url(clock.png) no-repeat;
+    height: 90vh;
+    margin: auto;
+    width: 90vh;    
+    border-radius: 33%;
+    background-size: 100%;
+    position: relative;
+    background-color: rgb(233, 162, 70);
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+#clock:hover{
+    background-color: rgb(57, 32, 214);
+}
+#hour , #minute , #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+#hour:hover{
+    background-color: turquoise;
+}
+#minute:hover{
+    background-color: rgb(70, 143, 135);
+}
+#second:hover{
+    background-color: rgb(156, 189, 185);
+}
+#hour{
+    width: 1.4%;
+    height: 25.4%;
+    left: 49.3%;
+    top: 25.2%;
+    background-color: rgb(7, 0, 0);
+    transform-origin: bottom;
+    /* display: none; */
+}
+#minute{
+    width: 1.4%;
+    height: 30%;
+    left: 49.3%;
+    top: 20.5%;
+    background-color: rgb(7, 2, 2);
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
+#second{
+    width: 1%;
+    height: 34%;
+    left: 49.5%;
+    top: 16.6%;
+    background-color: black;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
+.anothercontainer{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.anothercontainer p:nth-child(1){
+    font-size: 6rem;
+    color: royalblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.anothercontainer p:nth-child(2){
+    font-size: 6rem;
+    color: royalblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
